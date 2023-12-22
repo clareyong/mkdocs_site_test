@@ -1,6 +1,20 @@
 site_name: Oliver's site
-
+nav:
+  - Home: index.md
+  - About: about.md
+  - User Guide: 
+    - Guide: user-guide/guide.md
+    - FAQ: user-guide/faq.md
 theme:
   name: material
   palette:
-    primary: cyan
+    - scheme: default
+      primary: purple
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
